@@ -18,7 +18,9 @@ assign a variable words=lines.split()
 ### Step 6: 
 now iterate through the variable and increase the count;and print the count value.
 ## PROGRAM:
+~~~
 import sys fp = open(sys.argv[1]) as fp A = fp.read() count=0 V=A.split() for i in V: count+=1 print("count",V) print("count",count)
+~~~
 ### OUTPUT:
 ![githublogo](book.jpg)
 ## RESULT:
